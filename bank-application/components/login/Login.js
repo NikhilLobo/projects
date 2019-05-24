@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View ,Image} from 'react-native';
+import { StyleSheet, Text, View ,Image,CheckBox} from 'react-native';
 
 
 import LoginForm from './LoginForm';
@@ -11,7 +11,7 @@ export default class Login extends React.Component {
                   <Image resizeMode="contain" style={styles.logo} source={require('../../components/images/images.png')} />
 
           <View style={styles.loginContainer}>
-                 <LoginForm />
+                 <SignUpForm />
           </View>
 
           </View>
