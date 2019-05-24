@@ -10,6 +10,8 @@ Amplify.configure(AWSConfig)
 
 import Tabs from './components/login/Tabs'
 
+import Main from './Screens/Main'
+
 
 export default class App extends React.Component {
 
@@ -23,9 +25,7 @@ export default class App extends React.Component {
     if(this.state.isAuthenticated){
       console.log('Auth :',Auth)
       return(
-        <View>
-              <Text>Hello Logged in user...!!</Text>
-        </View>
+      <Main/>
       )
     }
 
