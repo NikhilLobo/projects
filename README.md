@@ -7,4 +7,4 @@
 3)Time tracking applicaiton
 
 #data branch contains Data Science project
-1) PRedicting the salary of MBA graduates using R 
+1) Predicting the salary of MBA graduates using R 
